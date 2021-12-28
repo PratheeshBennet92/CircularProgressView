@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PBCircularProgress"
+  spec.name         = "CircularProgressView"
   spec.version      = "1.0.0"
   spec.summary      = "This displays a circular progress view"
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PBCircularProgress/**/*.{swift}"
+  spec.source_files  = "CircularProgressView/**/*.{swift}"
   spec.swift_version = "4.2"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -74,6 +74,6 @@ Pod::Spec.new do |spec|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-   spec.resources = "PBCircularProgress/**/*.{png}"
+   spec.resources = "CircularProgressView/**/*.{png}"
 
 end
