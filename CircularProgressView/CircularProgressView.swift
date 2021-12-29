@@ -62,7 +62,7 @@ public class CircularProgressView: UIView {
   private var progressStrokeColor: UIColor
   private var previousProgress: CGFloat = 0
   /// Progress value. Min = 0, Max = 1
-  var progress: CGFloat = 0 {
+  public var progress: CGFloat = 0 {
     didSet {
       progressStatus = ProgressStatus(progress: progress)
       progressAnimation()
@@ -73,7 +73,7 @@ public class CircularProgressView: UIView {
   private var progressLayer = CAShapeLayer()
   private var startPoint = CGFloat(-Double.pi / 2)
   private var endPoint = CGFloat(3 * Double.pi / 2)
-  init(arcRadius: CGFloat = 20,
+  public init(arcRadius: CGFloat = 20,
        lineWidth: CGFloat = 5,
        circleStrokeColor: UIColor = .lightGray,
        progressStrokeColor: UIColor = .red,
@@ -88,7 +88,7 @@ public class CircularProgressView: UIView {
     addDownloadPauseButton()
     createCircularPath()
   }
-  required init?(coder: NSCoder) {
+  public required init?(coder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
   }
   public override func layoutSubviews() {
