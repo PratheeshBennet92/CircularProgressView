@@ -1,6 +1,6 @@
 import UIKit
 class ViewController: UIViewController {
-  var circularProgressBarView: PBCircularProgressView!
+  var circularProgressBarView: CircularProgressView!
   var progressAnimationDuration: TimeInterval = 2
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -9,7 +9,7 @@ class ViewController: UIViewController {
   }
   func setUpCircularProgressBarView() {
     // set view
-    circularProgressBarView = PBCircularProgressView(arcRadius: 20,
+    circularProgressBarView = CircularProgressView(arcRadius: 20,
                                                      lineWidth: 5,
                                                      circleStrokeColor: .lightGray,
                                                      progressStrokeColor: .red,

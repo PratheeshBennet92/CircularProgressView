@@ -23,7 +23,7 @@ public enum ProgressStatus {
     }
   }
 }
-public class PBCircularProgressView: UIView {
+public class CircularProgressView: UIView {
   let kPlayImage = "play"
   let kPauseImage = "pause"
   /// To hide the pauseDownloadButton. Default is False

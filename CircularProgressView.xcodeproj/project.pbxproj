@@ -15,7 +15,7 @@
 		4A70CB36272977D1007712BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A70CB34272977D1007712BC /* LaunchScreen.storyboard */; };
 		4A70CB41272977D1007712BC /* CircularProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70CB40272977D1007712BC /* CircularProgressViewTests.swift */; };
 		4A70CB4C272977D1007712BC /* CircularProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70CB4B272977D1007712BC /* CircularProgressViewUITests.swift */; };
-		4A70CB5A272977FC007712BC /* PBCircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70CB59272977FC007712BC /* PBCircularProgressView.swift */; };
+		4A70CB5A272977FC007712BC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70CB59272977FC007712BC /* CircularProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		4A70CB47272977D1007712BC /* CircularProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A70CB4B272977D1007712BC /* CircularProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressViewUITests.swift; sourceTree = "<group>"; };
 		4A70CB4D272977D1007712BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A70CB59272977FC007712BC /* PBCircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBCircularProgressView.swift; sourceTree = "<group>"; };
+		4A70CB59272977FC007712BC /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				4A70CB32272977D1007712BC /* Assets.xcassets */,
 				4A70CB34272977D1007712BC /* LaunchScreen.storyboard */,
 				4A70CB37272977D1007712BC /* Info.plist */,
-				4A70CB59272977FC007712BC /* PBCircularProgressView.swift */,
+				4A70CB59272977FC007712BC /* CircularProgressView.swift */,
 			);
 			path = CircularProgressView;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			files = (
 				4A70CB2E272977D0007712BC /* ViewController.swift in Sources */,
 				4A70CB2A272977D0007712BC /* AppDelegate.swift in Sources */,
-				4A70CB5A272977FC007712BC /* PBCircularProgressView.swift in Sources */,
+				4A70CB5A272977FC007712BC /* CircularProgressView.swift in Sources */,
 				4A70CB2C272977D0007712BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
